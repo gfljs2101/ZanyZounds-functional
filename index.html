@@ -1,126 +1,30 @@
 <!DOCTYPE html>
   <link rel="icon" type="image/x-icon" href="https://funtasmo.github.io/ZanyZounds/favicon.ico">
   <title>ZanyZounds</title>
-  <style>
-  input {
-    width: 500px;
-    height: 100px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #f2f2f2;
-    font-size: 18px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-
-    body {
-      background-color: #171717;
-      color: #FFFF;
-    }
-
-
-
-.btn {
-
-font-family: Arial;
-font-weight: 0;
-font-size: 20px;
-color: #fff;
-background: linear-gradient(90deg, #2a9d8f 0%, #61decd 100%);
-padding: 20px 30px;
-border: solid #76e084 2px;
-box-shadow: none;
-border-radius: 20px 2px 25px 0px;
-transition : 1384ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
-width: 530px;
- 
-}
-
-.btn:hover {
-
-transition : 1384ms;
-transform : translateY(-0px);
-background: linear-gradient(90deg, #2a9d8f 0%, #61decd 100%);
-color: #000000;
-border: solid 2px #2a9d8f;
-width: 500px;
-}
-
-
-.frame {
-
-font-family: Arial;
-font-weight: 0;
-font-size: 20px;
-color: #fff;
-background: #264653
-padding: 20px 30px;
-border: solid #76e084 2px;
-box-shadow: none;
-transition : 1384ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
-width: 200px;
-margin: 10px;
-}
-
-.frame:hover {
-
-transition : 1384ms;
-transform : translateY(-0px);
-background: linear-gradient(90deg, #264653 0%, #f200ff 100%);
-color: #000000;
-border: solid 2px #2a9d8f;
-width: 200px;
-}
-
-        #scrolling-frame {
-        width: 200px;
-        height: 300px;
-        overflow: auto;
-        border: 1px solid #ccc;
-    }
-
-</style>
-
-
-<script>
-    // JavaScript to make the frame scrollable
-    const frame = document.getElementById('scrolling-frame');
-    function scrollFrame(direction) {
-        frame.scrollBy(0, direction);
-    }
-</script>
+  <link rel="stylesheet" href="styles.css">
 
 
   <input type="text" id="name" name="code" placeholder="Enter the code you want in here!"> 
 <button class="btn"><center>Listen to the code!</center></button> 
 
 <div id="scrolling-frame">
-<button class="frame">The 42 Drums<button>
-<button class="frame">Funny Song!<button>
-<button class="frame">ZZ Melodi<button>
-<button class="frame">THE [.] BOX<button>
-<button class="frame">Weird, dreamy sound<button>
-<button class="frame">The Box but dreamier<button>
-<button class="frame">Cool 8-bit music<button>
-<button class="frame">The 24 Melody?<button>
-<button class="frame">Voice code<button>
-<button class="frame">20th Century Fox<button>
-<button class="frame">42 Melody with delay<button>
-<button class="frame">Sound base for Eggs trombone<button>
-<button class="frame">Guitar when you smashed your finger<button>
-<button class="frame">Dog Days - Bags N Buckets<button>
-<button class="frame">Santi Banti - Bags N Buckets<button>
-<button class="frame">THE VOID IS COMING<button>
-<button class="frame">ZANOPORTOA DA DARk<button>
-<button class="frame">Summoning Ghosts<button>
+<button class="frame">The 42 Drums</button>
+<button class="frame">Funny Song!</button>
+<button class="frame">ZZ Melodi</button>
+<button class="frame">THE [.] BOX</button>
+<button class="frame">Weird, dreamy sound</button>
+<button class="frame">The Box but dreamier</button>
+<button class="frame">Cool 8-bit music</button>
+<button class="frame">The 24 Melody?</button>
+<button class="frame">Voice code</button>
+<button class="frame">20th Century Fox</button>
+<button class="frame">42 Melody with delay</button>
+<button class="frame">Sound base for Eggs trombone</button>
+<button class="frame">Guitar when you smashed your finger</button>
+<button class="frame">Dog Days - Bags N Buckets</button>
+<button class="frame">Santi Banti - Bags N Buckets</button>
+<button class="frame">THE VOID IS COMING</button>
+<button class="frame">ZANOPORTOA DA DARk</button>
+<button class="frame">Summoning Ghosts</button>
 </div>
-
+<script src="script.js"></script>
